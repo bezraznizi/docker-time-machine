@@ -11,6 +11,6 @@ sub() {
   printf '%s' "$temp" > "$path"
 }
 
-export HOST_NAME="$(hostname)"
+export HOST_NAME="TC_on_Linux"
 
 sub '${SMB_USER},${SMB_NAME}' /etc/samba/smb.conf
